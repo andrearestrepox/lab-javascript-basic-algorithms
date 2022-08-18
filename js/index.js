@@ -23,14 +23,14 @@ else if (hacker1.length < hacker2.length ) {
 
 
 // Iteration 3: Loops
-let driversName = " ";
-for(let i=0; i < hacker1.length; i++) {
-    driversName += hacker1[i].toUpperCase() + " ";
-}
-console.log(driversName)
+let driversName = '';
 
-let newNavName = "";
-for(let i = hacker2.length)
+for(let i=0; i < hacker1.length; i++) {
+    driversName += hacker1.charAt(i) + ' ';
+}
+alert(driversName);
+
+hacker2.split('').reverse().join('')
 
 
 
